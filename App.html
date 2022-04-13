@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rewardo</title>
+    <link rel="stylesheet" href="index.css">
+    <script type = "text/javascript" src="js/jquery.js"></script>
+</head>
+<body>
+    <div class="top_position">
+        <h1 class = "title">REWARDO</h1>
+        <p class = "Info">Rewardo focuses on promotion of public transportation.</p>
+    </div>
+    <button class="emrald" onclick="func()">Scan QR</button>
+    <div class="bg-modal">
+        <input type="file" id = "file" name = "file" onInput = "readQR()">
+        <form class="bg-content">
+            <div class = "close">+</div>
+            <img src="qrcodescanning.gif" alt="QR code" style="width: 150px;height: 150px;margin: 50px;">            
+            <label class = "fileDup" for="file">Choose a file</label>
+        </form>
+    </div>
+    <script src="./App.js"></script>
+</body>
+</html>

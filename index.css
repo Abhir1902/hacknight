@@ -1,0 +1,113 @@
+.title{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    font-style: bold;
+}
+*{
+    margin: 0px;
+}
+body{
+    text-align: center;
+    background-image: url("rewardo.jpg");
+}
+.top_position{
+    text-align: center;
+    height: 300px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: black;
+}
+.Info{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    color: white;
+}
+.emrald{
+    color: green;
+    text-align: center;
+    font-size: 20px;
+    background-color: white;
+    /*font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px green;
+    border-radius: 20px;
+    padding: 10px;
+    transition-duration: 0.3s;
+    box-shadow: none;
+    width: 100px;
+    height: 50px;
+}
+
+.emrald:hover{
+    background-color: white;
+    background-color: green;
+    color: green;
+    color: white;
+    border: 1px white;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+}
+.bg-modal{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0,0,0,0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.bg-content{
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+.fileDup{
+    color: rgb(0, 124, 128);
+    text-align: center;
+    font-size: 20px;
+    background-color: white;
+    /*font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px rgb(113, 163, 3);
+    border-radius: 20px;
+    padding: 10px;
+    transition-duration: 0.3s;
+    box-shadow: none;
+    width: 150px;
+    height: 50px;
+    display:block;
+    margin: 15px auto;
+}
+
+.fileDup:hover{
+    background-color: white;
+    background-color: green;
+    color: green;
+    color: white;
+    border: 1px white;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+}
+#file{
+    display: none;
+}
+.close{
+    position: absolute;
+    right: 20px;
+    top: 0px;
+    font-size: 42px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
